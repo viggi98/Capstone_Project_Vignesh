@@ -1,0 +1,8 @@
+**Situation**
+Mamaearth's Growth Analytics team evaluated recent order performance to quantify the true impact of returns on profit margins. The initial raw data indicated a total revenue of INR 99,860.20. Following strict data hygiene protocols—including the removal of duplicate orders that accounted for a reconciliation delta of INR 2,501.90—the verified cleaned total revenue stands at INR 97,358.30.
+
+**Complication**
+Blended averages were masking severe operational leaks. A deep-dive segment analysis revealed that Cash on Delivery (COD) orders suffer an exceptionally high return rate of 44.4%. Furthermore, this risk is not uniform: the single highest-risk segment is COD in Tier-2 cities, reaching a staggering return rate of 54.5%. Additionally, early volume spikes were distorted by bulk outliers; once corrected, 03 (March) emerged as the genuine peak revenue month at INR 20,318.90.
+
+**Resolution**
+To protect margins, regional operations and finance teams must immediately restructure promotional incentives for COD transactions, particularly in Tier-2 regions. Future financial forecasting must exclusively utilize outlier-corrected models (benchmarked to the March true peak) to prevent bulk-order distortions from inflating expected runway.

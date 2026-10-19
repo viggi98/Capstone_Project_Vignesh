@@ -1,0 +1,28 @@
+{
+    "total_orders": 180,
+    "cleaned_orders_count": 175,
+    "duplicates_count": 5,
+    "outliers_count": 2,
+    "raw_revenue": 99860.2,
+    "cleaned_revenue": 97358.3,
+    "reconciliation_delta": 2501.9,
+    "return_rate_by_payment": {
+        "CARD": 14.7,
+        "COD": 44.4,
+        "UPI": 18.9
+    },
+    "highest_risk_segment": {
+        "payment_method": "COD",
+        "city_tier": 2,
+        "return_rate_pct": 54.5
+    },
+    "true_peak_month": {
+        "month": "2026-03",
+        "revenue": 20318.9
+    },
+    "outlier_inflated_month": {
+        "month": "2026-01",
+        "apparent_revenue": 29582.1,
+        "corrected_revenue": 11637.1
+    }
+}
